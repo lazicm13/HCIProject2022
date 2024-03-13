@@ -1,0 +1,84 @@
+﻿<Window x:Class="Content_Management_System.TabelarniPrikazWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Content_Management_System"
+        mc:Ignorable="d"
+        Title="Prikaz Automobila" Height="450" Width="680" Closing="Window_Closing" ResizeMode="NoResize">
+    
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="BorderBrush" Value="SteelBlue"/>
+            <Setter Property="BorderThickness" Value="3"/>
+            <Setter Property="Height" Value="60"/>
+            <Setter Property="Grid.Column" Value="1"/>
+            <Setter Property="Grid.Row" Value="1"/>
+            <Setter Property="Width" Value="120"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Background" Value="White" />
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+        </Style>
+        <Style TargetType="Hyperlink">
+            <Setter Property="Foreground" Value="Orange"/>
+        </Style>
+        <Style TargetType="DataGrid">
+            <Setter Property="FontFamily" Value="Segoe UI" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="Background" Value="black" />
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="Padding" Value="5,2" />
+            <Setter Property="BorderThickness" Value="0,0,0,1" />
+            <Setter Property="BorderBrush" Value="White" />
+            
+        </Style>
+        
+    </Window.Resources>
+    <Window.Background>
+        <ImageBrush ImageSource="Slike/back3.jpg" />
+    </Window.Background>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" VerticalAlignment="Bottom" HorizontalAlignment="Left" Grid.ColumnSpan="2" Margin="40,0,0,0" Content="Automobili" FontSize="30" Foreground="SteelBlue" FontWeight="Bold" ></Label>
+        <DataGrid x:Name="dataGridAutomobili" VerticalContentAlignment="Center"  ItemsSource="{Binding Automobili}" CanUserAddRows="False" CanUserDeleteRows="False" CanUserReorderColumns="False" CanUserResizeRows="False" CanUserSortColumns="False" Grid.Column="0" IsReadOnly="False" AutoGenerateColumns="false" Height="300" Width="420" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" BorderBrush="SteelBlue" BorderThickness="3">
+            <DataGrid.Background>
+                <SolidColorBrush Color="Black" Opacity="0.7"></SolidColorBrush>
+            </DataGrid.Background>
+            <DataGrid.Columns>
+                <DataGridCheckBoxColumn x:Name="dgCheckBoxColumn" Binding="{Binding Path=IsSelected}"></DataGridCheckBoxColumn>
+                
+                <DataGridHyperlinkColumn Header="Marka" x:Name="hyper" Binding="{Binding NazivAutomobila}">
+                    <DataGridHyperlinkColumn.ElementStyle>
+                        <Style>
+                            <EventSetter Event="Hyperlink.Click" Handler="hyperlink_clicked"/>
+                        </Style>
+                    </DataGridHyperlinkColumn.ElementStyle>
+                </DataGridHyperlinkColumn>
+                
+                <DataGridTemplateColumn IsReadOnly="True" Header="Logo">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding ImagePath}" Width="50" Height="50"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn IsReadOnly="True" Header="Datum dodavanja" Binding="{Binding DatumDodavanja}" Width="*"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Button x:Name="buttonDodaj"  VerticalAlignment="Top"  Margin="0,40,0,0" Content="Dodaj" Click="buttonDodaj_Click"/>
+        <Button x:Name="buttonObrisi"  VerticalAlignment="Center"  Content="Obrisi" Click="buttonObrisi_Click"/>
+        <Button x:Name="buttonIzadji"  VerticalAlignment="Bottom"  Margin="0,0,0,40" Content="Izadji" Click="buttonIzadji_Click" />
+    </Grid>
+</Window>

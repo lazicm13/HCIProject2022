@@ -1,0 +1,42 @@
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\HCI\Projekat\Content Management System\Content Management System\bin\Debug\Content Management System.exe.config
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\HCI\Projekat\Content Management System\Content Management System\bin\Debug\Content Management System.exe
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\HCI\Projekat\Content Management System\Content Management System\bin\Debug\Content Management System.pdb
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\HCI\Projekat\Content Management System\Content Management System\obj\Debug\Content Management System.csproj.AssemblyReference.cache
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\HCI\Projekat\Content Management System\Content Management System\obj\Debug\DodajWindow.g.cs
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\HCI\Projekat\Content Management System\Content Management System\obj\Debug\MainWindow.g.cs
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\HCI\Projekat\Content Management System\Content Management System\obj\Debug\TabelarniPrikazWindow.g.cs
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\HCI\Projekat\Content Management System\Content Management System\obj\Debug\App.g.cs
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\HCI\Projekat\Content Management System\Content Management System\obj\Debug\Content Management System_MarkupCompile.cache
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\HCI\Projekat\Content Management System\Content Management System\obj\Debug\Content Management System_MarkupCompile.lref
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\HCI\Projekat\Content Management System\Content Management System\obj\Debug\DodajWindow.baml
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\HCI\Projekat\Content Management System\Content Management System\obj\Debug\MainWindow.baml
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\HCI\Projekat\Content Management System\Content Management System\obj\Debug\TabelarniPrikazWindow.baml
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\HCI\Projekat\Content Management System\Content Management System\obj\Debug\Content Management System.g.resources
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\HCI\Projekat\Content Management System\Content Management System\obj\Debug\Content_Management_System.Properties.Resources.resources
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\HCI\Projekat\Content Management System\Content Management System\obj\Debug\Content Management System.csproj.GenerateResource.cache
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\HCI\Projekat\Content Management System\Content Management System\obj\Debug\Content Management System.csproj.CoreCompileInputs.cache
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\HCI\Projekat\Content Management System\Content Management System\obj\Debug\Content Management System.exe
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\HCI\Projekat\Content Management System\Content Management System\obj\Debug\Content Management System.pdb
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\HCI\Projekat\Content Management System\Content Management System\obj\Debug\PodaciWindow.g.cs
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\HCI\Projekat\Content Management System\Content Management System\obj\Debug\PodaciWindow.baml
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\Polozeno\HCI\Projekat\Content Management System\Content Management System\bin\Debug\Content Management System.exe.config
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\Polozeno\HCI\Projekat\Content Management System\Content Management System\bin\Debug\Content Management System.exe
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\Polozeno\HCI\Projekat\Content Management System\Content Management System\bin\Debug\Content Management System.pdb
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\Polozeno\HCI\Projekat\Content Management System\Content Management System\obj\Debug\Content Management System.csproj.AssemblyReference.cache
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\Polozeno\HCI\Projekat\Content Management System\Content Management System\obj\Debug\DodajWindow.g.cs
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\Polozeno\HCI\Projekat\Content Management System\Content Management System\obj\Debug\MainWindow.g.cs
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\Polozeno\HCI\Projekat\Content Management System\Content Management System\obj\Debug\PodaciWindow.g.cs
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\Polozeno\HCI\Projekat\Content Management System\Content Management System\obj\Debug\TabelarniPrikazWindow.g.cs
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\Polozeno\HCI\Projekat\Content Management System\Content Management System\obj\Debug\App.g.cs
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\Polozeno\HCI\Projekat\Content Management System\Content Management System\obj\Debug\Content Management System_MarkupCompile.cache
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\Polozeno\HCI\Projekat\Content Management System\Content Management System\obj\Debug\Content Management System_MarkupCompile.lref
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\Polozeno\HCI\Projekat\Content Management System\Content Management System\obj\Debug\DodajWindow.baml
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\Polozeno\HCI\Projekat\Content Management System\Content Management System\obj\Debug\MainWindow.baml
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\Polozeno\HCI\Projekat\Content Management System\Content Management System\obj\Debug\PodaciWindow.baml
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\Polozeno\HCI\Projekat\Content Management System\Content Management System\obj\Debug\TabelarniPrikazWindow.baml
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\Polozeno\HCI\Projekat\Content Management System\Content Management System\obj\Debug\Content Management System.g.resources
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\Polozeno\HCI\Projekat\Content Management System\Content Management System\obj\Debug\Content_Management_System.Properties.Resources.resources
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\Polozeno\HCI\Projekat\Content Management System\Content Management System\obj\Debug\Content Management System.csproj.GenerateResource.cache
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\Polozeno\HCI\Projekat\Content Management System\Content Management System\obj\Debug\Content Management System.csproj.CoreCompileInputs.cache
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\Polozeno\HCI\Projekat\Content Management System\Content Management System\obj\Debug\Content Management System.exe
+C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\Polozeno\HCI\Projekat\Content Management System\Content Management System\obj\Debug\Content Management System.pdb

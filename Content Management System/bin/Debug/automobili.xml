@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ArrayOfAutomobil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Automobil>
+    <GodinaOsnivanja>1988</GodinaOsnivanja>
+    <NazivAutomobila>Lamborghini</NazivAutomobila>
+    <DatumDodavanja>2023-03-29T22:38:25.0025856+02:00</DatumDodavanja>
+    <ImagePath>C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\HCI\Projekat\Content Management System\Content Management System\Slike\lamborghini.png</ImagePath>
+    <FilePath>C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\HCI\Projekat\Content Management System\Content Management System\bin\Debug\Lamborghini.rtf</FilePath>
+    <IsSelected>false</IsSelected>
+  </Automobil>
+  <Automobil>
+    <GodinaOsnivanja>1999</GodinaOsnivanja>
+    <NazivAutomobila>Ferrari</NazivAutomobila>
+    <DatumDodavanja>2023-03-29T22:52:00.432785+02:00</DatumDodavanja>
+    <ImagePath>C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\HCI\Projekat\Content Management System\Content Management System\Slike\ferrari.png</ImagePath>
+    <FilePath>C:\Users\HP EliteBook 840-G2\Desktop\Faks\3. GODINA\HCI\Projekat\Content Management System\Content Management System\bin\Debug\Ferrari.rtf</FilePath>
+    <IsSelected>false</IsSelected>
+  </Automobil>
+</ArrayOfAutomobil>

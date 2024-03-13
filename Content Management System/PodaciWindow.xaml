@@ -1,0 +1,53 @@
+﻿<Window x:Class="Content_Management_System.PodaciWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Content_Management_System"
+        mc:Ignorable="d"
+        Title="Informacije" Height="600" Width="400" ResizeMode="NoResize">
+    <Window.Background>
+        <ImageBrush ImageSource="Slike/back5.jpg" Stretch="Fill"/>
+    </Window.Background>
+    <Grid Margin="30">
+        <Grid.Background>
+            <SolidColorBrush Color="Black" Opacity="0.6"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Label x:Name="labelNaslov" Content="Informacije" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="33" FontWeight="Bold" Foreground="SteelBlue"></Label>
+        <Separator VerticalAlignment="Bottom"/>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <StackPanel Orientation="Vertical" Grid.Column="0" VerticalAlignment="Center">
+                <Label x:Name="labelMarka" Content="Marka:" Foreground="AliceBlue" FontSize="19" HorizontalAlignment="Center"></Label>
+                <Separator Width="60"/>
+                <Label x:Name="labelMarkaBind" Foreground="Orange" FontSize="20" HorizontalAlignment="Center"></Label>
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Grid.Column="1" VerticalAlignment="Center">
+                <Label x:Name="labelGodinaOsnivanja" Content="Godina osnivanja:" Foreground="AliceBlue" FontSize="19" HorizontalAlignment="Center"/>
+                <Separator Width="60"/>
+                <Label x:Name="labelGodinaOsnivanjaBind" Foreground="Orange" FontSize="20" HorizontalAlignment="Center"/>
+            </StackPanel>
+        </Grid>
+        
+        <Image x:Name="showImage" Grid.Row="2" Width="160" Height="120"/>
+        <Label x:Name="labelOpis" Content="O brendu:" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="AliceBlue" FontSize="25"></Label>
+        <Separator VerticalAlignment="Bottom" Grid.Row="3" Margin="0,0,0,125" Width="150" />
+        <RichTextBox Opacity="0.9" x:Name="rtbOpis" Grid.Row="3" Height="110"  Width="240" Margin="0,0,0,5" IsReadOnly="True" HorizontalAlignment="Center" VerticalAlignment="Bottom"></RichTextBox>
+        <Separator VerticalAlignment="Bottom" Grid.Row="2" Width="250"/>
+
+
+        <Button Grid.Row="4" Width="140" Height="50" Content="Izađi" FontSize="33" Click="Button_Click"/>
+    </Grid>
+</Window>
